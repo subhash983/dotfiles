@@ -80,7 +80,7 @@ DISABLE_AUTO_TITLE="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(aliases git zsh-syntax-highlighting zsh-autosuggestions yarn docker docker-compose kubectl fzf eza thefuck zoxide fnm dnf)
+plugins=(aliases git zsh-syntax-highlighting zsh-autosuggestions yarn docker docker-compose kubectl fzf eza thefuck zoxide fnm dnf tmux)
 
 source $ZSH/oh-my-zsh.sh
 
