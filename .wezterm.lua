@@ -105,7 +105,7 @@ config.keys = {
     -- Pane mgmt
     { key = 'n',   mods = 'ALT',        action = act.SplitVertical { domain = 'CurrentPaneDomain' } },
     { key = 'm',   mods = 'ALT',        action = act.SplitHorizontal { domain = 'CurrentPaneDomain' } },
-    { key = 'w',   mods = 'ALT',        action = act.CloseCurrentPane { confirm = true } },
+    -- { key = 'w',   mods = 'ALT',        action = act.CloseCurrentPane { confirm = true } },
     { key = 'h',   mods = 'ALT',        action = act.ActivatePaneDirection 'Left' },
     { key = 'j',   mods = 'ALT',        action = act.ActivatePaneDirection 'Down' },
     { key = 'k',   mods = 'ALT',        action = act.ActivatePaneDirection 'Up' },
